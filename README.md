@@ -38,3 +38,25 @@
   - `m x n` 행렬과 `m x 1` 벡터 간의 연산
   - `m x n` 행렬과 `1 x n` 벡터 간의 연산
   - `m x 1` 벡터와 `1 x n`
+
+### 자료형
+1. python
+- int,float, complex, string, bool, list, tuple, dict, set
+2. numpy
+단일 값을 메모리에 저장하는데 필요한 bit수를 의미합니다.
+- int(8bit, 16bit, 32bit, 64bit) i1, i2, i4, i8
+  - 부호가 있음
+  - 비트수 만큼 크기를 가지는 정수형
+- unit(8bit, 16bit, 32bit, 64bit) u1, u2, u4, u8
+  - 부호가 없음
+  - 비트수 만큼 크기를 가지는 정수형
+- float(16bit, 32bit, 64bit, 128bit) f2, f4, f8, f16
+  - 부호가 있음
+  - 비트수 만큼 크기를 가지는 실수형
+- 복소수형
+  - complex64 : 두개의 32비트 부동 소수점으로 표시되는 복소수 c8
+  - complex128 : 두개의 64비트 부동소수점으로 표시되는 복소수 c16
+- unicode
+  - 고정 길이 문자열 unicode
+  - bool
+  - True, False
